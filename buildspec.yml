@@ -7,6 +7,7 @@ phases:
       #- $(aws ecr get-login --region ap-south-1 --no-include-email)
       #- aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin 618246141405.dkr.ecr.ap-south-1.amazonaws.com
       - # Replace with this to your repository URI
+      #updated
       - aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin 618246141405.dkr.ecr.ap-south-1.amazonaws.com
       #- REPOSITORY_URI=618246141405.dkr.ecr.ap-south-1.amazonaws.com/mlops-ecr
       - REPOSITORY_URI=618246141405.dkr.ecr.ap-south-1.amazonaws.com/mlops-pipeline-ecr
